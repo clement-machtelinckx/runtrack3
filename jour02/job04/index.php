@@ -7,7 +7,6 @@
     <title>day02/job03</title>
 </head>
 <body>
-<p id="compteur">0</p>
-<button id="button">Button</button>
+<textarea name="text" id="keylogger" cols="30" rows="10"></textarea>
 <script src="script.js"></script>
 </body>
