@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.sect {
+    display: flex;
+    flex-direction: row;
+    
+}
+img {
+    
+    margin: 5px;
+}
+.good{
+    display: none;
+}
+.nogood{
+    display: none;
+}

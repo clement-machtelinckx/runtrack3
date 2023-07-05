@@ -13,5 +13,6 @@ ensuite on prie.</p>
 <button id="button2" class="button2">button2</button>
 </body>
 <footer></footer>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="script.js"></script>
+
