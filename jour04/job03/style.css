@@ -1,0 +1,18 @@
+.pokemon-card {
+font-family: monospace;
+margin: 5px;
+background-color: black;
+border-radius: 5px;
+justify-content: center;
+width: 50vh;
+}
+.pokemon-card p {
+    color: white;
+}
+.pokemon-card h3 {
+    color: red;
+}
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+}

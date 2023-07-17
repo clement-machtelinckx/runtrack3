@@ -58,6 +58,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const pokemonTypes = document.createElement("p");
         pokemonTypes.textContent = "Type(s): " + pokemon.type.join(", ");
         pokemonCard.appendChild(pokemonTypes);
+
+        const pokemonBases = document.createElement("p");
+        const baseStats = Object.entries(pokemon.base).map(([stat, value]) => `${stat}: ${value}`).join(", ");
+        pokemonBases.textContent = "Statistiques de base: " + baseStats;
+        pokemonCard.appendChild(pokemonBases);
   
         resultContainer.appendChild(pokemonCard);
       });

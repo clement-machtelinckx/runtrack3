@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchStyle</title>
+    <style>
+        /* Définition du style par défaut */
+        body {
+            background-color: #88c1d0;
+        }
+    </style>
+    <script>
+        function loadStyle() {
+            const screenWidth = window.innerWidth;
+            const styleLink = document.createElement("link");
+            styleLink.rel = "stylesheet";
+
+            if (screenWidth >= 1680 && screenWidth <= 1920){
+                styleLink.href = "style2.css";
+            }
+            else if (screenWidth >= 1280 && screenWidth <= 1680){
+                styleLink.href = "style3.css";
+            }
+            else if (screenWidth <= 1280){
+                styleLink.href = "style4.css";
+            }
+
+            document.head.appendChild(styleLink);
+            window.addEventListener("resize", loadStyle);
+        }
+
+        // Appel de la fonction lors du chargement de la page
+        window.addEventListener("load", loadStyle);
+    </script>
+</head>
+<body>
+    <h1>SwitchStyle</h1>
+    <p>Ce paragraphe a un fond de couleur différent en fonction de la résolution.</p>
+</body>
+</html>

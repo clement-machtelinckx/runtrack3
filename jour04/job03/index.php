@@ -37,7 +37,7 @@
         <input type="submit" value="Trier">
 
     </form>
-    <p id="result-container"></p>
+    <div id="result-container" class="result-container"></div>
     <script src="script.js"></script>
 
 </body>
