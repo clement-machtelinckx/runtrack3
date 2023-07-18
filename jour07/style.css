@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    margin: 0;
+}
+.sect1 {
+    display: flex;
+    flex-direction: row;
+}
+section > .titre {
+    display: flex;
+    justify-content: center;
+}
+/*container 1 ################################################*/
+.container1 {
+    width: 30%;
+
+}
+.box >img{
+    width: 100%;
+}
+
+/*container 2 ###########################################""""*/
+.container2 {
+    width: 70%;
+    background-color: rgb(70, 155, 158);
+}
+.pagination {
+    margin-top: 15px;
+}
+.but{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 15px;
+}
+/*section 2 ##########################################"*/
+
+/* */
+.progresse{
+    margin-top: 15px;
+}
+/*section form */  
+
+.form{
+    margin-top: 15px;
+}
+
+
+
