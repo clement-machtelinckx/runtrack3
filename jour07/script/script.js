@@ -52,3 +52,15 @@ paginationLinks.forEach((link, index) => {
     jumbotronText.textContent = pagesContent[index].text;
   });
 });
+
+const listItems = document.querySelectorAll(".list-group-item");
+
+listItems.forEach(item => {
+    item.addEventListener("click", function() {
+        // Retirez la classe "active" de tous les éléments de la liste
+        listItems.forEach(item => item.classList.remove("active"));
+
+        // Rendez l'élément actuellement cliqué comme étant actif
+        this.classList.add("active");
+    });
+});

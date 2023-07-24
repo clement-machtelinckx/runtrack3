@@ -17,6 +17,11 @@ section > .titre {
     width: 30%;
 
 }
+.list-group-item.active {
+    background-color: blue; /* Par exemple, utilisez ici le style souhaité pour l'élément actif */
+    color: white;
+}
+
 .box >img{
     width: 100%;
 }
