@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <header>
-    <nav class="flex">
+    <nav class="flex justify-evenly">
         <div class="h-12">
             <a class="ml-3" href="index.php">Accueil</a>
             <a class="ml-3" href="index.php">Inscription</a>

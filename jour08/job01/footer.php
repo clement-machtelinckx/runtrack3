@@ -7,13 +7,12 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <footer>
-    <nav>
-    <div class="h-12">
-        <a class="ml-3" href="index.php">Accueil</a>
-        <a class="ml-3" href="index.php">Inscription</a>
-        <a class="ml-3" href="index.php">Connecxion</a>
-        <a class="ml-3" href="index.php">Recherche</a>
-    </div>
-
+<nav class="flex justify-evenly">
+        <div class="h-12">
+            <a class="ml-3" href="index.php">Accueil</a>
+            <a class="ml-3" href="index.php">Inscription</a>
+            <a class="ml-3" href="index.php">Connexion</a>
+            <a class="ml-3" href="index.php">Recherche</a>
+        </div>
     </nav>
 </footer>
